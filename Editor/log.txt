@@ -1,0 +1,402 @@
+Apache Ant(TM) version 1.9.4 compiled on April 29 2014
+Trying the default build file: build.xml
+Buildfile: D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build.xml
+Detected Java version: 1.7 in: C:\Program Files (x86)\Java\jdk1.7.0_55\jre
+Detected OS: Windows 8.1
+parsing buildfile D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build.xml with URI = file:/D:/DATA/Docs/School/Mff/2014%20-%20ZS/Java/credit/Editor/build.xml
+Project base dir set to: D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor
+parsing buildfile jar:file:/C:/ant/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/C:/ant/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+Importing file D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\nbproject\build-impl.xml from D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\nbproject\build-impl.xml with URI = file:/D:/DATA/Docs/School/Mff/2014%20-%20ZS/Java/credit/Editor/nbproject/build-impl.xml
+Overriding previous definition of reference to ant.projectHelper
+Build sequence for target(s) `default' is [-pre-init, -init-private, -init-user, -init-project, -init-macrodef-property, -do-init, -post-init, -init-check, -init-ap-cmdline-properties, -init-macrodef-javac-with-processors, -init-macrodef-javac-without-processors, -init-macrodef-javac, -init-macrodef-test-impl, -init-macrodef-junit-init, -init-macrodef-junit-single, -init-test-properties, -init-macrodef-junit-batch, -init-macrodef-junit, -init-macrodef-junit-impl, -init-macrodef-testng, -init-macrodef-testng-impl, -init-macrodef-test, -init-macrodef-junit-debug, -init-macrodef-junit-debug-batch, -init-macrodef-junit-debug-impl, -init-macrodef-test-debug-junit, -init-macrodef-testng-debug, -init-macrodef-testng-debug-impl, -init-macrodef-test-debug-testng, -init-macrodef-test-debug, -init-debug-args, -init-macrodef-nbjpda, -init-macrodef-debug, -init-macrodef-java, -init-presetdef-jar, -init-ap-cmdline-supported, -init-ap-cmdline, init, -deps-jar-init, deps-jar, -check-automatic-build, -clean-after-automatic-build, -verify-automatic-build, -pre-pre-compile, -pre-compile, -copy-persistence-xml, -compile-depend, -do-compile, -post-compile, compile, -pre-pre-compile-test, -pre-compile-test, -compile-test-depend, -do-compile-test, -post-compile-test, compile-test, -pre-test-run, -do-test-run, test-report, -post-test-run, -test-browse, test, -pre-jar, -pre-pre-jar, -do-jar-create-manifest, -do-jar-copy-manifest, -do-jar-set-mainclass, -do-jar-set-profile, -do-jar-set-splashscreen, -do-jar-jar, -init-macrodef-copylibs, -do-jar-copylibs, -do-jar-delete-manifest, -do-jar-without-libraries, -do-jar-with-libraries, -post-jar, -do-jar, jar, -javadoc-build, -javadoc-browse, javadoc, default]
+Complete build sequence is [-pre-init, -init-private, -init-user, -init-project, -init-macrodef-property, -do-init, -post-init, -init-check, -init-ap-cmdline-properties, -init-macrodef-javac-with-processors, -init-macrodef-javac-without-processors, -init-macrodef-javac, -init-macrodef-test-impl, -init-macrodef-junit-init, -init-macrodef-junit-single, -init-test-properties, -init-macrodef-junit-batch, -init-macrodef-junit, -init-macrodef-junit-impl, -init-macrodef-testng, -init-macrodef-testng-impl, -init-macrodef-test, -init-macrodef-junit-debug, -init-macrodef-junit-debug-batch, -init-macrodef-junit-debug-impl, -init-macrodef-test-debug-junit, -init-macrodef-testng-debug, -init-macrodef-testng-debug-impl, -init-macrodef-test-debug-testng, -init-macrodef-test-debug, -init-debug-args, -init-macrodef-nbjpda, -init-macrodef-debug, -init-macrodef-java, -init-presetdef-jar, -init-ap-cmdline-supported, -init-ap-cmdline, init, -deps-jar-init, deps-jar, -check-automatic-build, -clean-after-automatic-build, -verify-automatic-build, -pre-pre-compile, -pre-compile, -copy-persistence-xml, -compile-depend, -do-compile, -post-compile, compile, -pre-pre-compile-test, -pre-compile-test, -compile-test-depend, -do-compile-test, -post-compile-test, compile-test, -pre-test-run, -do-test-run, test-report, -post-test-run, -test-browse, test, -pre-jar, -pre-pre-jar, -do-jar-create-manifest, -do-jar-copy-manifest, -do-jar-set-mainclass, -do-jar-set-profile, -do-jar-set-splashscreen, -do-jar-jar, -init-macrodef-copylibs, -do-jar-copylibs, -do-jar-delete-manifest, -do-jar-without-libraries, -do-jar-with-libraries, -post-jar, -do-jar, jar, -javadoc-build, -javadoc-browse, javadoc, default, Editor-impl.-post-jar, -pre-debug-fix, -pre-compile-test-single, -do-compile-test-single, -post-compile-test-single, compile-test-single, Editor-impl.-do-debug-fix-test, -pre-compile-single, -do-compile-single, -post-compile-single, compile-single, run-single, -debug-start-debugger, -debug-start-debuggee-single, Editor-impl.debug-single, -profile-post-init, Editor-impl.-do-jar-jar, -pre-test-run-single, -do-test-run-single-method, Editor-impl.-do-jar-copy-manifest, Editor-impl.-do-jar-delete-manifest, -profile-check, profile-test-with-main, Editor-impl.-init-macrodef-testng-impl, -profile-init-macrodef-profile, -check-call-dep, -post-test-run-single-method, Editor-impl.-pre-test-run, -debug-start-debugger-test, -debug-start-debuggee-test, Editor-impl.debug-test, -debug-start-debuggee-applet, Editor-impl.-debug-start-debugger-test, Editor-impl.-do-compile, Editor-impl.-clean-after-automatic-build, -debug-start-debuggee-main-test, Editor-impl.-debug-start-debugger-stepinto, -do-test-run-single, Editor-impl.-post-test-run-single, -profile-pre-init, -profile-init-check, profile-init, -profile-pre72, profile, Editor-impl.-post-compile-test, Editor-impl.-pre-test-run-single, -debug-start-debuggee, Editor-impl.debug, Editor-impl.test-single-method, -profile-single-pre72, Editor-impl.profile-single, -warn-already-built-jar, Editor-impl.profile-init, Editor-impl.-profile-check, Editor-impl.-init-ap-cmdline-properties, -warn-already-built-clean, Editor-impl.run-test-with-main, Editor-impl.-do-compile-single, -do-not-recompile, debug-test, Editor-impl.-maybe-call-dep, Editor-impl.-pre-init, Editor-impl.-init-macrodef-junit-debug-impl, Editor-impl.-do-compile-test-single, Editor-impl.-do-test-run, Editor-impl.-deps-clean-init, Editor-impl.-init-macrodef-testng, Editor-impl.-post-compile-test-single, debug-applet, Editor-impl.-init-macrodef-junit-debug, Editor-impl.-copy-persistence-xml, Editor-impl.jar, Editor-impl.-profile-init-check, -debug-start-debugger-stepinto, Editor-impl.debug-stepinto, -do-debug-fix, Editor-impl.debug-fix, -deps-clean-init, Editor-impl.-init-macrodef-nbjpda, Editor-impl.-do-jar-with-libraries, Editor-impl.-init-macrodef-property, run, Editor-impl.-do-init, Editor-impl.run-applet, Editor-impl.-do-jar-create-manifest, -do-debug-fix-test, Editor-impl.-do-test-run-single-method, Editor-impl.-do-jar-without-libraries, -profile-test-single-pre72, Editor-impl.-debug-start-debuggee-main-test, Editor-impl.-init-macrodef-test-debug-testng, Editor-impl.-post-test-run, deps-clean, -do-clean, -post-clean, Editor-impl.clean, Editor-impl.-init-ap-cmdline, Editor-impl.-init-test-properties, Editor-impl.-do-clean, -profile-applet-pre72, Editor-impl.-init-ap-cmdline-supported, Editor-impl.debug-fix-test, Editor-impl.-debug-start-debuggee-test-method, run-applet, Editor-impl.debug-applet, Editor-impl.-init-macrodef-junit-debug-batch, Editor-impl.-post-compile-single, Editor-impl.-pre-compile-test-single, Editor-impl.-init-macrodef-junit, Editor-impl.-init-presetdef-jar, test-single-method, Editor-impl.run, Editor-impl.-check-automatic-build, Editor-impl.-pre-jar, Editor-impl.-compile-depend, Editor-impl.-warn-already-built-jar, run-test-with-main, -debug-start-debugger-main-test, -post-test-run-single, Editor-impl.test-single, Editor-impl.-pre-debug-fix, Editor-impl.-verify-automatic-build, Editor-impl.-do-compile-test, Editor-impl.-post-init, -maybe-call-dep, Editor-impl.-debug-start-debugger, Editor-impl.-debug-start-debuggee, debug, Editor-impl.-init-user, Editor-impl.-init-private, Editor-impl.compile-test, Editor-impl.test, Editor-impl.-pre-pre-compile-test, Editor-impl.-post-clean, Editor-impl.profile-applet, Editor-impl.-init-macrodef-testng-debug, Editor-impl.-init-macrodef-junit-impl, debug-test-with-main, Editor-impl.-init-macrodef-junit-init, Editor-impl.compile-single, Editor-impl.-init-macrodef-javac, Editor-impl.-profile-single-pre72, Editor-impl.-javadoc-browse, Editor-impl.compile, profile-test, -debug-start-debuggee-test-method, Editor-impl.deps-jar, Editor-impl.debug-test-with-main, Editor-impl.-profile-test-single-pre72, profile-single, profile-test-single, Editor-impl.-do-not-recompile, Editor-impl.-init-macrodef-test, debug-test-method, Editor-impl.-init-macrodef-testng-debug-impl, Editor-impl.default, Editor-impl.-test-browse, Editor-impl.-do-debug-fix, Editor-impl.-do-jar-copylibs, debug-fix, Editor-impl.-do-jar-set-profile, Editor-impl.-profile-pre72, Editor-impl.-debug-start-debugger-main-test, Editor-impl.-init-macrodef-test-impl, Editor-impl.profile-test-with-main, Editor-impl.-init-check, Editor-impl.-do-jar-set-mainclass, profile-applet, Editor-impl.deps-clean, Editor-impl.-pre-compile-single, Editor-impl.-init-debug-args, Editor-impl.-profile-post-init, clean, Editor-impl.compile-test-single, Editor-impl.-init-macrodef-junit-single, debug-stepinto, Editor-impl.-init-macrodef-copylibs, Editor-impl.-init-macrodef-test-debug, Editor-impl.-debug-start-debuggee-single, Editor-impl.-check-call-dep, Editor-impl.profile-test, Editor-impl.-do-jar, Editor-impl.-compile-test-depend, Editor-impl.-warn-already-built-clean, Editor-impl.javadoc, Editor-impl.debug-test-method, Editor-impl.-javadoc-build, Editor-impl.-do-jar-set-splashscreen, Editor-impl.-post-test-run-single-method, Editor-impl.-init-project, Editor-impl.-pre-pre-compile, Editor-impl.-debug-start-debuggee-applet, debug-single, Editor-impl.-init-macrodef-debug, Editor-impl.-pre-pre-jar, Editor-impl.-profile-init-macrodef-profile, Editor-impl.-init-macrodef-javac-with-processors, debug-fix-test, Editor-impl.-pre-compile-test, Editor-impl.-init-macrodef-test-debug-junit, Editor-impl.init, Editor-impl.run-single, test-single, Editor-impl.-init-macrodef-javac-without-processors, Editor-impl.test-report, Editor-impl.-init-macrodef-junit-batch, Editor-impl.-do-test-run-single, Editor-impl.-debug-start-debuggee-test, Editor-impl.-post-compile, Editor-impl.-init-macrodef-java, Editor-impl.-pre-compile, Editor-impl.profile-test-single, Editor-impl.-profile-pre-init, Editor-impl.-profile-applet-pre72, Editor-impl.-deps-jar-init, Editor-impl.profile, ]
+
+-pre-init:
+
+-init-private:
+ [property] Loading D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\nbproject\private\config.properties
+ [property] Unable to find property file: D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\nbproject\private\config.properties
+Property "config" has not been set
+ [property] Loading D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\nbproject\private\configs\${config}.properties
+ [property] Unable to find property file: D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\nbproject\private\configs\${config}.properties
+ [property] Loading D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\nbproject\private\private.properties
+
+-init-user:
+ [property] Loading C:\Users\ggrrin_\AppData\Roaming\NetBeans\8.0.1\build.properties
+Override ignored for property "default.javac.source"
+Override ignored for property "default.javac.target"
+
+-init-project:
+Property "config" has not been set
+ [property] Loading D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\nbproject\configs\${config}.properties
+ [property] Unable to find property file: D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\nbproject\configs\${config}.properties
+ [property] Loading D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\nbproject\project.properties
+
+-init-macrodef-property:
+ [macrodef] creating macro  http://www.netbeans.org/ns/j2se-project/1:property
+
+-do-init:
+[available] Found: manifest.mf
+Property "application.splash" has not been set
+Property "application.splash" has not been set
+[available] Unable to find ${application.splash}
+Property "javac.profile" has not been set
+Property "jar.archive.disabled" has not been set
+Property "not.archive.disabled" has not been set
+[available] Unable to find test
+[available] Found: src
+Property "javadoc.preview" has not been set
+Override ignored for property "run.jvmargs"
+Override ignored for property "javac.compilerargs"
+Property "no.dependencies" has not been set
+Override ignored for property "source.encoding"
+Override ignored for property "javadoc.encoding.used"
+Override ignored for property "includes"
+Override ignored for property "excludes"
+Property "endorsed.classpath" has not been set
+Property "endorsed.classpath" has not been set
+Property "javac.profile" has not been set
+[available] Unable to find src\META-INF\persistence.xml to set property has.persistence.xml
+dropping D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build\test\classes from path as it doesn't exist
+[available] Unable to load class org.junit.Test
+dropping D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build\test\classes from path as it doesn't exist
+[available] Unable to load class junit.framework.Test
+dropping D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build\test\classes from path as it doesn't exist
+[available] Unable to load class org.testng.annotations.Test
+Property "junit.available" has not been set
+Property "testng.available" has not been set
+Property "junit+testng.available" has not been set
+Property "junit+testng.available" has not been set
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+Override ignored for property "annotation.processing.enabled"
+Override ignored for property "annotation.processing.processors.list"
+Override ignored for property "annotation.processing.processor.options"
+Override ignored for property "annotation.processing.run.all.processors"
+Override ignored for property "javac.processorpath"
+Override ignored for property "javac.test.processorpath"
+
+-init-macrodef-javac-with-processors:
+Property "empty.dir" has not been set
+Property "empty.dir" has not been set
+ [macrodef] creating macro  http://www.netbeans.org/ns/j2se-project/3:javac
+
+-init-macrodef-javac-without-processors:
+Skipped because property 'ap.supported.internal' set.
+
+-init-macrodef-javac:
+ [macrodef] creating macro  http://www.netbeans.org/ns/j2se-project/3:depend
+ [macrodef] creating macro  http://www.netbeans.org/ns/j2se-project/3:force-recompile
+
+-init-macrodef-test-impl:
+ [macrodef] creating macro  http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-junit-init:
+Property "junit.available" has not been set
+Property "junit.available" has not been set
+Skipped because property '${junit.available}' not set.
+
+-init-macrodef-junit-single:
+Property "nb.junit.single" has not been set
+Property "nb.junit.single" has not been set
+Skipped because property '${nb.junit.single}' not set.
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+Property "nb.junit.batch" has not been set
+Property "nb.junit.batch" has not been set
+Skipped because property '${nb.junit.batch}' not set.
+
+-init-macrodef-junit:
+Property "junit.available" has not been set
+Property "junit.available" has not been set
+Skipped because property '${junit.available}' not set.
+
+-init-macrodef-junit-impl:
+Property "junit.available" has not been set
+Property "junit.available" has not been set
+Skipped because property '${junit.available}' not set.
+
+-init-macrodef-testng:
+Property "testng.available" has not been set
+Property "testng.available" has not been set
+Skipped because property '${testng.available}' not set.
+
+-init-macrodef-testng-impl:
+Property "testng.available" has not been set
+Property "testng.available" has not been set
+Skipped because property '${testng.available}' not set.
+
+-init-macrodef-test:
+ [macrodef] creating macro  http://www.netbeans.org/ns/j2se-project/3:test
+
+-init-macrodef-junit-debug:
+Property "junit.available" has not been set
+Property "junit.available" has not been set
+Skipped because property '${junit.available}' not set.
+
+-init-macrodef-junit-debug-batch:
+Property "nb.junit.batch" has not been set
+Property "nb.junit.batch" has not been set
+Skipped because property '${nb.junit.batch}' not set.
+
+-init-macrodef-junit-debug-impl:
+Property "junit.available" has not been set
+Property "junit.available" has not been set
+Skipped because property '${junit.available}' not set.
+
+-init-macrodef-test-debug-junit:
+Property "junit.available" has not been set
+Property "junit.available" has not been set
+Skipped because property '${junit.available}' not set.
+
+-init-macrodef-testng-debug:
+Property "testng.available" has not been set
+Property "testng.available" has not been set
+Skipped because property '${testng.available}' not set.
+
+-init-macrodef-testng-debug-impl:
+Property "testng.available" has not been set
+Property "testng.available" has not been set
+Skipped because property '${testng.available}' not set.
+
+-init-macrodef-test-debug-testng:
+Property "testng.available" has not been set
+Property "testng.available" has not been set
+Skipped because property '${testng.available}' not set.
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+Property "have-jdk-older-than-1.4" has not been set
+Property "debug.transport" has not been set
+
+-init-macrodef-nbjpda:
+ [macrodef] creating macro  http://www.netbeans.org/ns/j2se-project/1:nbjpdastart
+ [macrodef] creating macro  http://www.netbeans.org/ns/j2se-project/1:nbjpdareload
+
+-init-macrodef-debug:
+ [macrodef] creating macro  http://www.netbeans.org/ns/j2se-project/3:debug
+
+-init-macrodef-java:
+ [macrodef] creating macro  http://www.netbeans.org/ns/j2se-project/1:java
+
+-init-presetdef-jar:
+[presetdef] defining preset http://www.netbeans.org/ns/j2se-project/1:jar
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build\built-jar.properties
+
+deps-jar:
+    [mkdir] Skipping D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build because it already exists.
+    [touch] Creating D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build\built-jar.properties
+ [property] Loading D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build\built-jar.properties
+Project base dir set to: D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor
+  [antcall] calling target(s) [-warn-already-built-jar] in build file D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build.xml
+parsing buildfile D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build.xml with URI = file:/D:/DATA/Docs/School/Mff/2014%20-%20ZS/Java/credit/Editor/build.xml
+Project base dir set to: D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor
+Importing file D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\nbproject\build-impl.xml from D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\nbproject\build-impl.xml with URI = file:/D:/DATA/Docs/School/Mff/2014%20-%20ZS/Java/credit/Editor/nbproject/build-impl.xml
+Overriding previous definition of reference to ant.projectHelper
+Build sequence for target(s) `-warn-already-built-jar' is [-warn-already-built-jar]
+Complete build sequence is [-warn-already-built-jar, Editor-impl.-post-jar, -pre-init, -init-private, -init-user, -init-project, -init-macrodef-property, -do-init, -post-init, -init-check, -init-ap-cmdline-properties, -init-macrodef-javac-with-processors, -init-macrodef-javac-without-processors, -init-macrodef-javac, -init-macrodef-test-impl, -init-macrodef-junit-init, -init-macrodef-junit-single, -init-test-properties, -init-macrodef-junit-batch, -init-macrodef-junit, -init-macrodef-junit-impl, -init-macrodef-testng, -init-macrodef-testng-impl, -init-macrodef-test, -init-macrodef-junit-debug, -init-macrodef-junit-debug-batch, -init-macrodef-junit-debug-impl, -init-macrodef-test-debug-junit, -init-macrodef-testng-debug, -init-macrodef-testng-debug-impl, -init-macrodef-test-debug-testng, -init-macrodef-test-debug, -init-debug-args, -init-macrodef-nbjpda, -init-macrodef-debug, -init-macrodef-java, -init-presetdef-jar, -init-ap-cmdline-supported, -init-ap-cmdline, init, -pre-debug-fix, -deps-jar-init, deps-jar, -check-automatic-build, -clean-after-automatic-build, -verify-automatic-build, -pre-pre-compile, -pre-compile, -copy-persistence-xml, -compile-depend, -do-compile, -post-compile, compile, -pre-pre-compile-test, -pre-compile-test-single, -do-compile-test-single, -post-compile-test-single, compile-test-single, Editor-impl.-do-debug-fix-test, -pre-compile-single, -do-compile-single, -post-compile-single, compile-single, run-single, -debug-start-debugger, -debug-start-debuggee-single, Editor-impl.debug-single, -javadoc-build, -profile-post-init, -pre-pre-jar, -pre-jar, -do-jar-create-manifest, -do-jar-copy-manifest, -do-jar-set-mainclass, -do-jar-set-profile, -do-jar-set-splashscreen, Editor-impl.-do-jar-jar, -pre-test-run-single, -do-test-run-single-method, Editor-impl.-do-jar-copy-manifest, -init-macrodef-copylibs, -do-jar-copylibs, Editor-impl.-do-jar-delete-manifest, -profile-check, profile-test-with-main, -pre-compile-test, -compile-test-depend, -do-compile-test, -post-compile-test, compile-test, -pre-test-run, -do-test-run, Editor-impl.-init-macrodef-testng-impl, -profile-init-macrodef-profile, -check-call-dep, -post-test-run-single-method, Editor-impl.-pre-test-run, -debug-start-debugger-test, -debug-start-debuggee-test, Editor-impl.debug-test, test-report, -post-test-run, -test-browse, test, -do-jar-jar, -do-jar-delete-manifest, -do-jar-without-libraries, -do-jar-with-libraries, -post-jar, -do-jar, jar, -javadoc-browse, javadoc, default, -debug-start-debuggee-applet, Editor-impl.-debug-start-debugger-test, Editor-impl.-do-compile, Editor-impl.-clean-after-automatic-build, -debug-start-debuggee-main-test, Editor-impl.-debug-start-debugger-stepinto, -do-test-run-single, Editor-impl.-post-test-run-single, -profile-pre-init, -profile-init-check, profile-init, -profile-pre72, profile, Editor-impl.-post-compile-test, Editor-impl.-pre-test-run-single, -debug-start-debuggee, Editor-impl.debug, Editor-impl.test-single-method, -profile-single-pre72, Editor-impl.profile-single, Editor-impl.profile-init, Editor-impl.-profile-check, Editor-impl.-init-ap-cmdline-properties, -warn-already-built-clean, Editor-impl.run-test-with-main, Editor-impl.-do-compile-single, -do-not-recompile, debug-test, Editor-impl.-maybe-call-dep, Editor-impl.-pre-init, Editor-impl.-init-macrodef-junit-debug-impl, Editor-impl.-do-compile-test-single, Editor-impl.-do-test-run, Editor-impl.-deps-clean-init, Editor-impl.-init-macrodef-testng, Editor-impl.-post-compile-test-single, debug-applet, Editor-impl.-init-macrodef-junit-debug, Editor-impl.-copy-persistence-xml, Editor-impl.jar, Editor-impl.-profile-init-check, -debug-start-debugger-stepinto, Editor-impl.debug-stepinto, -do-debug-fix, Editor-impl.debug-fix, -deps-clean-init, Editor-impl.-init-macrodef-nbjpda, Editor-impl.-do-jar-with-libraries, Editor-impl.-init-macrodef-property, run, Editor-impl.-do-init, Editor-impl.run-applet, Editor-impl.-do-jar-create-manifest, -do-debug-fix-test, Editor-impl.-do-test-run-single-method, Editor-impl.-do-jar-without-libraries, -profile-test-single-pre72, Editor-impl.-debug-start-debuggee-main-test, Editor-impl.-init-macrodef-test-debug-testng, Editor-impl.-post-test-run, deps-clean, -do-clean, -post-clean, Editor-impl.clean, Editor-impl.-init-ap-cmdline, Editor-impl.-init-test-properties, Editor-impl.-do-clean, -profile-applet-pre72, Editor-impl.-init-ap-cmdline-supported, Editor-impl.debug-fix-test, Editor-impl.-debug-start-debuggee-test-method, run-applet, Editor-impl.debug-applet, Editor-impl.-init-macrodef-junit-debug-batch, Editor-impl.-post-compile-single, Editor-impl.-pre-compile-test-single, Editor-impl.-init-macrodef-junit, Editor-impl.-init-presetdef-jar, test-single-method, Editor-impl.run, Editor-impl.-check-automatic-build, Editor-impl.-pre-jar, Editor-impl.-compile-depend, Editor-impl.-warn-already-built-jar, run-test-with-main, -debug-start-debugger-main-test, -post-test-run-single, Editor-impl.test-single, Editor-impl.-pre-debug-fix, Editor-impl.-verify-automatic-build, Editor-impl.-do-compile-test, Editor-impl.-post-init, -maybe-call-dep, Editor-impl.-debug-start-debugger, Editor-impl.-debug-start-debuggee, debug, Editor-impl.-init-user, Editor-impl.-init-private, Editor-impl.compile-test, Editor-impl.test, Editor-impl.-pre-pre-compile-test, Editor-impl.-post-clean, Editor-impl.profile-applet, Editor-impl.-init-macrodef-testng-debug, Editor-impl.-init-macrodef-junit-impl, debug-test-with-main, Editor-impl.-init-macrodef-junit-init, Editor-impl.compile-single, Editor-impl.-init-macrodef-javac, Editor-impl.-profile-single-pre72, Editor-impl.-javadoc-browse, Editor-impl.compile, profile-test, -debug-start-debuggee-test-method, Editor-impl.deps-jar, Editor-impl.debug-test-with-main, Editor-impl.-profile-test-single-pre72, profile-single, profile-test-single, Editor-impl.-do-not-recompile, Editor-impl.-init-macrodef-test, debug-test-method, Editor-impl.-init-macrodef-testng-debug-impl, Editor-impl.default, Editor-impl.-test-browse, Editor-impl.-do-debug-fix, Editor-impl.-do-jar-copylibs, debug-fix, Editor-impl.-do-jar-set-profile, Editor-impl.-profile-pre72, Editor-impl.-debug-start-debugger-main-test, Editor-impl.-init-macrodef-test-impl, Editor-impl.profile-test-with-main, Editor-impl.-init-check, Editor-impl.-do-jar-set-mainclass, profile-applet, Editor-impl.deps-clean, Editor-impl.-pre-compile-single, Editor-impl.-init-debug-args, Editor-impl.-profile-post-init, clean, Editor-impl.compile-test-single, Editor-impl.-init-macrodef-junit-single, debug-stepinto, Editor-impl.-init-macrodef-copylibs, Editor-impl.-init-macrodef-test-debug, Editor-impl.-debug-start-debuggee-single, Editor-impl.-check-call-dep, Editor-impl.profile-test, Editor-impl.-do-jar, Editor-impl.-compile-test-depend, Editor-impl.-warn-already-built-clean, Editor-impl.javadoc, Editor-impl.debug-test-method, Editor-impl.-javadoc-build, Editor-impl.-do-jar-set-splashscreen, Editor-impl.-post-test-run-single-method, Editor-impl.-init-project, Editor-impl.-pre-pre-compile, Editor-impl.-debug-start-debuggee-applet, debug-single, Editor-impl.-init-macrodef-debug, Editor-impl.-pre-pre-jar, Editor-impl.-profile-init-macrodef-profile, Editor-impl.-init-macrodef-javac-with-processors, debug-fix-test, Editor-impl.-pre-compile-test, Editor-impl.-init-macrodef-test-debug-junit, Editor-impl.init, Editor-impl.run-single, test-single, Editor-impl.-init-macrodef-javac-without-processors, Editor-impl.test-report, Editor-impl.-init-macrodef-junit-batch, Editor-impl.-do-test-run-single, Editor-impl.-debug-start-debuggee-test, Editor-impl.-post-compile, Editor-impl.-init-macrodef-java, Editor-impl.-pre-compile, Editor-impl.profile-test-single, Editor-impl.-profile-pre-init, Editor-impl.-profile-applet-pre72, Editor-impl.-deps-jar-init, Editor-impl.profile, ]
+  [antcall] Entering D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build.xml...
+Build sequence for target(s) `-warn-already-built-jar' is [-warn-already-built-jar]
+Complete build sequence is [-warn-already-built-jar, Editor-impl.-post-jar, -pre-init, -init-private, -init-user, -init-project, -init-macrodef-property, -do-init, -post-init, -init-check, -init-ap-cmdline-properties, -init-macrodef-javac-with-processors, -init-macrodef-javac-without-processors, -init-macrodef-javac, -init-macrodef-test-impl, -init-macrodef-junit-init, -init-macrodef-junit-single, -init-test-properties, -init-macrodef-junit-batch, -init-macrodef-junit, -init-macrodef-junit-impl, -init-macrodef-testng, -init-macrodef-testng-impl, -init-macrodef-test, -init-macrodef-junit-debug, -init-macrodef-junit-debug-batch, -init-macrodef-junit-debug-impl, -init-macrodef-test-debug-junit, -init-macrodef-testng-debug, -init-macrodef-testng-debug-impl, -init-macrodef-test-debug-testng, -init-macrodef-test-debug, -init-debug-args, -init-macrodef-nbjpda, -init-macrodef-debug, -init-macrodef-java, -init-presetdef-jar, -init-ap-cmdline-supported, -init-ap-cmdline, init, -pre-debug-fix, -deps-jar-init, deps-jar, -check-automatic-build, -clean-after-automatic-build, -verify-automatic-build, -pre-pre-compile, -pre-compile, -copy-persistence-xml, -compile-depend, -do-compile, -post-compile, compile, -pre-pre-compile-test, -pre-compile-test-single, -do-compile-test-single, -post-compile-test-single, compile-test-single, Editor-impl.-do-debug-fix-test, -pre-compile-single, -do-compile-single, -post-compile-single, compile-single, run-single, -debug-start-debugger, -debug-start-debuggee-single, Editor-impl.debug-single, -javadoc-build, -profile-post-init, -pre-pre-jar, -pre-jar, -do-jar-create-manifest, -do-jar-copy-manifest, -do-jar-set-mainclass, -do-jar-set-profile, -do-jar-set-splashscreen, Editor-impl.-do-jar-jar, -pre-test-run-single, -do-test-run-single-method, Editor-impl.-do-jar-copy-manifest, -init-macrodef-copylibs, -do-jar-copylibs, Editor-impl.-do-jar-delete-manifest, -profile-check, profile-test-with-main, -pre-compile-test, -compile-test-depend, -do-compile-test, -post-compile-test, compile-test, -pre-test-run, -do-test-run, Editor-impl.-init-macrodef-testng-impl, -profile-init-macrodef-profile, -check-call-dep, -post-test-run-single-method, Editor-impl.-pre-test-run, -debug-start-debugger-test, -debug-start-debuggee-test, Editor-impl.debug-test, test-report, -post-test-run, -test-browse, test, -do-jar-jar, -do-jar-delete-manifest, -do-jar-without-libraries, -do-jar-with-libraries, -post-jar, -do-jar, jar, -javadoc-browse, javadoc, default, -debug-start-debuggee-applet, Editor-impl.-debug-start-debugger-test, Editor-impl.-do-compile, Editor-impl.-clean-after-automatic-build, -debug-start-debuggee-main-test, Editor-impl.-debug-start-debugger-stepinto, -do-test-run-single, Editor-impl.-post-test-run-single, -profile-pre-init, -profile-init-check, profile-init, -profile-pre72, profile, Editor-impl.-post-compile-test, Editor-impl.-pre-test-run-single, -debug-start-debuggee, Editor-impl.debug, Editor-impl.test-single-method, -profile-single-pre72, Editor-impl.profile-single, Editor-impl.profile-init, Editor-impl.-profile-check, Editor-impl.-init-ap-cmdline-properties, -warn-already-built-clean, Editor-impl.run-test-with-main, Editor-impl.-do-compile-single, -do-not-recompile, debug-test, Editor-impl.-maybe-call-dep, Editor-impl.-pre-init, Editor-impl.-init-macrodef-junit-debug-impl, Editor-impl.-do-compile-test-single, Editor-impl.-do-test-run, Editor-impl.-deps-clean-init, Editor-impl.-init-macrodef-testng, Editor-impl.-post-compile-test-single, debug-applet, Editor-impl.-init-macrodef-junit-debug, Editor-impl.-copy-persistence-xml, Editor-impl.jar, Editor-impl.-profile-init-check, -debug-start-debugger-stepinto, Editor-impl.debug-stepinto, -do-debug-fix, Editor-impl.debug-fix, -deps-clean-init, Editor-impl.-init-macrodef-nbjpda, Editor-impl.-do-jar-with-libraries, Editor-impl.-init-macrodef-property, run, Editor-impl.-do-init, Editor-impl.run-applet, Editor-impl.-do-jar-create-manifest, -do-debug-fix-test, Editor-impl.-do-test-run-single-method, Editor-impl.-do-jar-without-libraries, -profile-test-single-pre72, Editor-impl.-debug-start-debuggee-main-test, Editor-impl.-init-macrodef-test-debug-testng, Editor-impl.-post-test-run, deps-clean, -do-clean, -post-clean, Editor-impl.clean, Editor-impl.-init-ap-cmdline, Editor-impl.-init-test-properties, Editor-impl.-do-clean, -profile-applet-pre72, Editor-impl.-init-ap-cmdline-supported, Editor-impl.debug-fix-test, Editor-impl.-debug-start-debuggee-test-method, run-applet, Editor-impl.debug-applet, Editor-impl.-init-macrodef-junit-debug-batch, Editor-impl.-post-compile-single, Editor-impl.-pre-compile-test-single, Editor-impl.-init-macrodef-junit, Editor-impl.-init-presetdef-jar, test-single-method, Editor-impl.run, Editor-impl.-check-automatic-build, Editor-impl.-pre-jar, Editor-impl.-compile-depend, Editor-impl.-warn-already-built-jar, run-test-with-main, -debug-start-debugger-main-test, -post-test-run-single, Editor-impl.test-single, Editor-impl.-pre-debug-fix, Editor-impl.-verify-automatic-build, Editor-impl.-do-compile-test, Editor-impl.-post-init, -maybe-call-dep, Editor-impl.-debug-start-debugger, Editor-impl.-debug-start-debuggee, debug, Editor-impl.-init-user, Editor-impl.-init-private, Editor-impl.compile-test, Editor-impl.test, Editor-impl.-pre-pre-compile-test, Editor-impl.-post-clean, Editor-impl.profile-applet, Editor-impl.-init-macrodef-testng-debug, Editor-impl.-init-macrodef-junit-impl, debug-test-with-main, Editor-impl.-init-macrodef-junit-init, Editor-impl.compile-single, Editor-impl.-init-macrodef-javac, Editor-impl.-profile-single-pre72, Editor-impl.-javadoc-browse, Editor-impl.compile, profile-test, -debug-start-debuggee-test-method, Editor-impl.deps-jar, Editor-impl.debug-test-with-main, Editor-impl.-profile-test-single-pre72, profile-single, profile-test-single, Editor-impl.-do-not-recompile, Editor-impl.-init-macrodef-test, debug-test-method, Editor-impl.-init-macrodef-testng-debug-impl, Editor-impl.default, Editor-impl.-test-browse, Editor-impl.-do-debug-fix, Editor-impl.-do-jar-copylibs, debug-fix, Editor-impl.-do-jar-set-profile, Editor-impl.-profile-pre72, Editor-impl.-debug-start-debugger-main-test, Editor-impl.-init-macrodef-test-impl, Editor-impl.profile-test-with-main, Editor-impl.-init-check, Editor-impl.-do-jar-set-mainclass, profile-applet, Editor-impl.deps-clean, Editor-impl.-pre-compile-single, Editor-impl.-init-debug-args, Editor-impl.-profile-post-init, clean, Editor-impl.compile-test-single, Editor-impl.-init-macrodef-junit-single, debug-stepinto, Editor-impl.-init-macrodef-copylibs, Editor-impl.-init-macrodef-test-debug, Editor-impl.-debug-start-debuggee-single, Editor-impl.-check-call-dep, Editor-impl.profile-test, Editor-impl.-do-jar, Editor-impl.-compile-test-depend, Editor-impl.-warn-already-built-clean, Editor-impl.javadoc, Editor-impl.debug-test-method, Editor-impl.-javadoc-build, Editor-impl.-do-jar-set-splashscreen, Editor-impl.-post-test-run-single-method, Editor-impl.-init-project, Editor-impl.-pre-pre-compile, Editor-impl.-debug-start-debuggee-applet, debug-single, Editor-impl.-init-macrodef-debug, Editor-impl.-pre-pre-jar, Editor-impl.-profile-init-macrodef-profile, Editor-impl.-init-macrodef-javac-with-processors, debug-fix-test, Editor-impl.-pre-compile-test, Editor-impl.-init-macrodef-test-debug-junit, Editor-impl.init, Editor-impl.run-single, test-single, Editor-impl.-init-macrodef-javac-without-processors, Editor-impl.test-report, Editor-impl.-init-macrodef-junit-batch, Editor-impl.-do-test-run-single, Editor-impl.-debug-start-debuggee-test, Editor-impl.-post-compile, Editor-impl.-init-macrodef-java, Editor-impl.-pre-compile, Editor-impl.profile-test-single, Editor-impl.-profile-pre-init, Editor-impl.-profile-applet-pre72, Editor-impl.-deps-jar-init, Editor-impl.profile, ]
+
+-warn-already-built-jar:
+Skipped because property 'already.built.jar.D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor' not set.
+  [antcall] Exiting D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build.xml.
+[propertyfile] Updating property file: D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build\built-jar.properties
+
+-check-automatic-build:
+[available] Unable to find build\classes\.netbeans_automatic_build to set property netbeans.automatic.build
+
+-clean-after-automatic-build:
+Skipped because property 'netbeans.automatic.build' not set.
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+    [mkdir] Skipping D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build\classes because it already exists.
+
+-pre-compile:
+
+-copy-persistence-xml:
+Skipped because property 'has.persistence.xml' not set.
+
+-compile-depend:
+Skipped because property 'do.depend.true' not set.
+
+-do-compile:
+    [mkdir] Skipping D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build\empty because it already exists.
+    [mkdir] Skipping D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build\generated-sources\ap-source-output because it already exists.
+    [javac] Polyhedron\BipartiteGraph.java added as Polyhedron\BipartiteGraph.class doesn't exist.
+    [javac] Polyhedron\ConvexPolyhedronBuilder.java added as Polyhedron\ConvexPolyhedronBuilder.class doesn't exist.
+    [javac] Polyhedron\CustomList.java added as Polyhedron\CustomList.class doesn't exist.
+    [javac] Polyhedron\Edge.java added as Polyhedron\Edge.class doesn't exist.
+    [javac] Polyhedron\Extension.java added as Polyhedron\Extension.class doesn't exist.
+    [javac] Polyhedron\IIndexable.java added as Polyhedron\IIndexable.class doesn't exist.
+    [javac] Polyhedron\KeyPairValue.java added as Polyhedron\KeyPairValue.class doesn't exist.
+    [javac] Polyhedron\Model.java added as Polyhedron\Model.class doesn't exist.
+    [javac] Polyhedron\OrientatedPlane.java added as Polyhedron\OrientatedPlane.class doesn't exist.
+    [javac] Polyhedron\TetrahedronBuilder.java added as Polyhedron\TetrahedronBuilder.class doesn't exist.
+    [javac] Polyhedron\Vector3.java added as Polyhedron\Vector3.class doesn't exist.
+    [javac] Polyhedron\package-info.java added as Polyhedron\package-info.class doesn't exist.
+    [javac] editor\Editor.java added as editor\Editor.class doesn't exist.
+    [javac] D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\EditorWindow.form skipped - don't know how to handle it
+    [javac] editor\EditorWindow.java added as editor\EditorWindow.class doesn't exist.
+    [javac] editor\Test.java added as editor\Test.class doesn't exist.
+    [javac] editor\bodyEditor\BodyGLJPanel.java added as editor\bodyEditor\BodyGLJPanel.class doesn't exist.
+    [javac] editor\bodyEditor\BodyModel.java added as editor\bodyEditor\BodyModel.class doesn't exist.
+    [javac] D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\bodyEditor\BodyUI.form skipped - don't know how to handle it
+    [javac] editor\bodyEditor\BodyUI.java added as editor\bodyEditor\BodyUI.class doesn't exist.
+    [javac] editor\bodyEditor\MovePlane.java added as editor\bodyEditor\MovePlane.class doesn't exist.
+    [javac] editor\bodyEditor\PositioningTool.java added as editor\bodyEditor\PositioningTool.class doesn't exist.
+    [javac] editor\bodyEditor\package-info.java added as editor\bodyEditor\package-info.class doesn't exist.
+    [javac] editor\common\BoundingBox.java added as editor\common\BoundingBox.class doesn't exist.
+    [javac] editor\common\CompositeModel.java added as editor\common\CompositeModel.class doesn't exist.
+    [javac] editor\common\CustomFileFilter.java added as editor\common\CustomFileFilter.class doesn't exist.
+    [javac] editor\common\Drawable.java added as editor\common\Drawable.class doesn't exist.
+    [javac] editor\common\EditorPanel.java added as editor\common\EditorPanel.class doesn't exist.
+    [javac] editor\common\Highligter.java added as editor\common\Highligter.class doesn't exist.
+    [javac] editor\common\IModel.java added as editor\common\IModel.class doesn't exist.
+    [javac] editor\common\IRenderComponent.java added as editor\common\IRenderComponent.class doesn't exist.
+    [javac] editor\common\ITool.java added as editor\common\ITool.class doesn't exist.
+    [javac] editor\common\InteractiveGLJPanel.java added as editor\common\InteractiveGLJPanel.class doesn't exist.
+    [javac] editor\common\ModelRender.java added as editor\common\ModelRender.class doesn't exist.
+    [javac] editor\common\Ray.java added as editor\common\Ray.class doesn't exist.
+    [javac] editor\common\Renderer.java added as editor\common\Renderer.class doesn't exist.
+    [javac] editor\common\Rotator.java added as editor\common\Rotator.class doesn't exist.
+    [javac] editor\common\SelectorListener.java added as editor\common\SelectorListener.class doesn't exist.
+    [javac] editor\common\SimpleDrawer.java added as editor\common\SimpleDrawer.class doesn't exist.
+    [javac] editor\common\TempModel.java added as editor\common\TempModel.class doesn't exist.
+    [javac] editor\common\ToolsGLJPanel.java added as editor\common\ToolsGLJPanel.class doesn't exist.
+    [javac] editor\common\package-info.java added as editor\common\package-info.class doesn't exist.
+    [javac] editor\convexEditor\ConvexGLJPanel.java added as editor\convexEditor\ConvexGLJPanel.class doesn't exist.
+    [javac] editor\convexEditor\ConvexModel.java added as editor\convexEditor\ConvexModel.class doesn't exist.
+    [javac] D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\convexEditor\ConvexObjUI.form skipped - don't know how to handle it
+    [javac] editor\convexEditor\ConvexObjUI.java added as editor\convexEditor\ConvexObjUI.class doesn't exist.
+    [javac] editor\convexEditor\DrawPlane.java added as editor\convexEditor\DrawPlane.class doesn't exist.
+    [javac] editor\convexEditor\PointTool.java added as editor\convexEditor\PointTool.class doesn't exist.
+    [javac] editor\convexEditor\PointsModel.java added as editor\convexEditor\PointsModel.class doesn't exist.
+    [javac] D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\convexEditor\SelectorMenu.form skipped - don't know how to handle it
+    [javac] editor\convexEditor\SelectorMenu.java added as editor\convexEditor\SelectorMenu.class doesn't exist.
+    [javac] editor\convexEditor\SelectorTool.java added as editor\convexEditor\SelectorTool.class doesn't exist.
+    [javac] editor\convexEditor\SubDrawer.java added as editor\convexEditor\SubDrawer.class doesn't exist.
+    [javac] editor\convexEditor\package-info.java added as editor\convexEditor\package-info.class doesn't exist.
+    [javac] D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\heighMapEditor\BrushMenu.form skipped - don't know how to handle it
+    [javac] editor\heighMapEditor\BrushMenu.java added as editor\heighMapEditor\BrushMenu.class doesn't exist.
+    [javac] editor\heighMapEditor\BrushTool.java added as editor\heighMapEditor\BrushTool.class doesn't exist.
+    [javac] editor\heighMapEditor\BrushType.java added as editor\heighMapEditor\BrushType.class doesn't exist.
+    [javac] editor\heighMapEditor\HeightMapModel.java added as editor\heighMapEditor\HeightMapModel.class doesn't exist.
+    [javac] D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\heighMapEditor\HeightMapUI.form skipped - don't know how to handle it
+    [javac] editor\heighMapEditor\HeightMapUI.java added as editor\heighMapEditor\HeightMapUI.class doesn't exist.
+    [javac] editor\heighMapEditor\MapGLJPanel.java added as editor\heighMapEditor\MapGLJPanel.class doesn't exist.
+    [javac] editor\heighMapEditor\ObjectTool.java added as editor\heighMapEditor\ObjectTool.class doesn't exist.
+    [javac] D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\heighMapEditor\StuffMenu.form skipped - don't know how to handle it
+    [javac] editor\heighMapEditor\StuffMenu.java added as editor\heighMapEditor\StuffMenu.class doesn't exist.
+    [javac] editor\heighMapEditor\package-info.java added as editor\heighMapEditor\package-info.class doesn't exist.
+    [javac] editor\package-info.java added as editor\package-info.class doesn't exist.
+    [javac] No sources found.
+    [javac] Compiling 60 source files to D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build\classes
+    [javac] Using modern compiler
+    [javac] Compilation arguments:
+    [javac] '-d'
+    [javac] 'D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build\classes'
+    [javac] '-classpath'
+    [javac] 'D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build\classes;D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\libs\gluegen-java-src.zip;D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\libs\gluegen-rt-natives-windows-amd64.jar;D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\libs\gluegen-rt.jar;D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\libs\joal-java-src.zip;D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\libs\jogl-all-natives-windows-amd64.jar;D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\libs\jogl-all.jar'
+    [javac] '-sourcepath'
+    [javac] 'D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build\empty'
+    [javac] '-target'
+    [javac] '1.8'
+    [javac] '-encoding'
+    [javac] 'UTF-8'
+    [javac] '-g'
+    [javac] '-processorpath'
+    [javac] 'D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\libs\gluegen-java-src.zip;D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\libs\gluegen-rt-natives-windows-amd64.jar;D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\libs\gluegen-rt.jar;D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\libs\joal-java-src.zip;D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\libs\jogl-all-natives-windows-amd64.jar;D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\libs\jogl-all.jar;D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build\empty'
+    [javac] '-s'
+    [javac] 'D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\build\generated-sources\ap-source-output'
+    [javac] '-source'
+    [javac] '1.8'
+    [javac] 
+    [javac] The ' characters around the executable and arguments are
+    [javac] not part of the command.
+    [javac] Files to be compiled:
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\Polyhedron\BipartiteGraph.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\Polyhedron\ConvexPolyhedronBuilder.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\Polyhedron\CustomList.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\Polyhedron\Edge.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\Polyhedron\Extension.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\Polyhedron\IIndexable.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\Polyhedron\KeyPairValue.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\Polyhedron\Model.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\Polyhedron\OrientatedPlane.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\Polyhedron\TetrahedronBuilder.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\Polyhedron\Vector3.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\Polyhedron\package-info.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\Editor.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\EditorWindow.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\Test.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\bodyEditor\BodyGLJPanel.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\bodyEditor\BodyModel.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\bodyEditor\BodyUI.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\bodyEditor\MovePlane.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\bodyEditor\PositioningTool.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\bodyEditor\package-info.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\BoundingBox.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\CompositeModel.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\CustomFileFilter.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\Drawable.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\EditorPanel.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\Highligter.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\IModel.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\IRenderComponent.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\ITool.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\InteractiveGLJPanel.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\ModelRender.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\Ray.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\Renderer.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\Rotator.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\SelectorListener.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\SimpleDrawer.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\TempModel.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\ToolsGLJPanel.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\common\package-info.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\convexEditor\ConvexGLJPanel.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\convexEditor\ConvexModel.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\convexEditor\ConvexObjUI.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\convexEditor\DrawPlane.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\convexEditor\PointTool.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\convexEditor\PointsModel.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\convexEditor\SelectorMenu.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\convexEditor\SelectorTool.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\convexEditor\SubDrawer.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\convexEditor\package-info.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\heighMapEditor\BrushMenu.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\heighMapEditor\BrushTool.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\heighMapEditor\BrushType.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\heighMapEditor\HeightMapModel.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\heighMapEditor\HeightMapUI.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\heighMapEditor\MapGLJPanel.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\heighMapEditor\ObjectTool.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\heighMapEditor\StuffMenu.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\heighMapEditor\package-info.java
+    [javac]     D:\DATA\Docs\School\Mff\2014 - ZS\Java\credit\Editor\src\editor\package-info.java
+    [javac] javac: invalid target release: 1.8
+    [javac] Usage: javac <options> <source files>
+    [javac] use -help for a list of possible options

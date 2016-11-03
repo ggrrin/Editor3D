@@ -1,0 +1,7 @@
+build/
+obj/
+.git/
+.hg/
+libs/
+jogamp-all-platforms/
+.hgignore
